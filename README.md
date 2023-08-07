@@ -12,4 +12,10 @@ Step 1: Feature generation script 🐍
 
 3 → stores these features in the *Feature Store* in hopsworks
 
+Step 2: Backfill historical (features, targets) ⏮️
+
+To train a Machine Learning model later, you need enough historical data (features, targets) in your Feature Store.
+
+Run the feature script for a range of past dates, to get enough training data.
+![image](https://github.com/jamello/PredictAirPolution/assets/3978328/d52b0cc1-1205-4287-ac41-13dab3155caa)
 
