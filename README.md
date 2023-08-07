@@ -19,3 +19,15 @@ To train a Machine Learning model later, you need enough historical data (featur
 Run the feature script for a range of past dates, to get enough training data.
 ![image](https://github.com/jamello/PredictAirPolution/assets/3978328/d52b0cc1-1205-4287-ac41-13dab3155caa)
 
+Step 4: Model training script 🏋️
+
+1 → fetches historical (features, targets) from the Feature Store.
+
+2 → trains and evaluate the best ML model possible for this data, e.g. XGBoostRegressor.
+
+3 → stores the trained model in the Model Registry.
+
+
+![image](https://github.com/jamello/PredictAirPolution/assets/3978328/182695c0-a673-466a-a5a5-f06cf451207d)
+
+
